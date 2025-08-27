@@ -108,4 +108,4 @@ Initial content and placeholder images integrated into the pages.
 * Pierre Hermé. n.d. Pierre Hermé [Online] Available at: https://www.pierreherme.com/ [Accessed 26 August 2025]
 
 ## Github link
-![The link](https://github.com/Soraya2005/WEDE5020-Part)
+![The link](https://github.com/Soraya2005/WEDE5020-Part1.git)
