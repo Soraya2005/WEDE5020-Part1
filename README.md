@@ -68,7 +68,7 @@ Functional navigation linking all pages together.
 Initial content and placeholder images integrated into the pages.
 
 ## Sitemap
-![Sitemap](blob:https://sitemap/35f5e441-9936-4ea3-827b-9ea6cfa8fc82
+![Sitemap](blob:https://sitemap/35f5e441-9936-4ea3-827b-9ea6cfa8fc82)
 
 ## Changelog
 2025-08-27: Initial Commit (v0.1)
