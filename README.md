@@ -100,11 +100,12 @@ Initial content and placeholder images integrated into the pages.
 
 *The fonts used are "Playfair Display" and "Montserrat", both served via Google Fonts.
 * Gridweb (2025) How much does a website cost in Cape Town [Online] Available at: https://gridweb.co.za/how-much-does-a-website-cost-in-cape-town-2025-guide/ [Accessed 26 August 2025].
-## Github link
-![The link](https://github.com/Soraya2005/WEDE5020-Part)
 
 * Website and pastry inspiration 
 
 * Cedric grolet. n.d. Cedric grolet [Online] Available at: https://cedric-grolet.com/ [Accessed 26 August 2025] 
 
-* Pierre Hermé. n.d. Pierre Hermé [Online] Available at: https://www.pierreherme.com/ [Accessed 26 August 2025] 
+* Pierre Hermé. n.d. Pierre Hermé [Online] Available at: https://www.pierreherme.com/ [Accessed 26 August 2025]
+
+## Github link
+![The link](https://github.com/Soraya2005/WEDE5020-Part)
