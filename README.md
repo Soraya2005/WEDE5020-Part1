@@ -99,7 +99,9 @@ Initial content and placeholder images integrated into the pages.
 * Font Sources:
 
 *The fonts used are "Playfair Display" and "Montserrat", both served via Google Fonts.
-* Gridweb (2025) How much does a website cost in Cape Town [Online] Available at: https://gridweb.co.za/how-much-does-a-website-cost-in-cape-town-2025-guide/ [Accessed 26 August 2025]. 
+* Gridweb (2025) How much does a website cost in Cape Town [Online] Available at: https://gridweb.co.za/how-much-does-a-website-cost-in-cape-town-2025-guide/ [Accessed 26 August 2025].
+## Github link
+![The link](https://github.com/Soraya2005/WEDE5020-Part)
 
 * Website and pastry inspiration 
 
