@@ -1,4 +1,4 @@
-# Project Title: Emma Cape Town
+# Project Title: Emma Cape Town - Artisanal Patisserie Website
 
 ## Student Info
 * Full name: Soraya Iness PECHERA ROGOMBE
