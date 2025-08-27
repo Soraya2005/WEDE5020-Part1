@@ -5,7 +5,7 @@
 * Student Number: ST10493837
 * Module: Web Development (WEDE5020)
 * Module code: HMAW0501
-* 
+
 ## Project Overview
 This project is the development of a professional, responsive, and SEO-optimised website for "Emma Cape Town," a fictional high-end artisanal patisserie. The website serves as a digital showcase for the brand, inspired by the elegance and minimalism of world-renowned pastry chefs like Cédric Grolet and Pierre Hermé. It aims to establish a strong online presence, attract local customers to the physical boutique, and facilitate enquiries for special orders. The project is developed in three parts, starting with the foundational HTML structure, followed by CSS styling, and concluding with JavaScript functionality.
 ## Website Goals and objectives
