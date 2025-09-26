@@ -27,6 +27,7 @@ This project is the development of a professional, responsive, and SEO-optimised
 
 * Responsive Design: The layout is designed to be fully functional and visually appealing across all devices (desktops, tablets, and mobiles).
 
+
 ## Timeline and Milestones
 This project is structured in three parts. The timeline below corresponds to Part 1.
 
@@ -67,6 +68,15 @@ Functional navigation linking all pages together.
 
 Initial content and placeholder images integrated into the pages.
 
+## CSS Structure
+* File: style.css
+* This file contains
+* CSS Reset for cross-browser consistency
+* Base styles (typography, color scheme, layout)
+* Media Queries for mobile/tablet adaptation
+* Interactive styles (hover, focus, animations)
+* Flexbox/Grid Layout for content organization
+
 ## Sitemap
 ![Sitemap](blob:https://sitemap/35f5e441-9936-4ea3-827b-9ea6cfa8fc82)
 
@@ -85,6 +95,19 @@ Initial content and placeholder images integrated into the pages.
 
 * Created the first version of the README.md file.
 
+  2025-09-26: Updated Css / Part 2
+
+  * Project started.
+  * Updated "Style.css" file.
+  * Updated "products.html" page and the four others.
+  * Began testing and fixing code.
+
+## Screenshots
+* [Mobile screen](<img width="503" height="625" alt="image" src="https://github.com/user-attachments/assets/d6c73eea-d733-4d4d-a6c8-1a0874f2f7f5" />)
+* [Tablet screen](<img width="862" height="927" alt="image" src="https://github.com/user-attachments/assets/84e73217-ec88-4960-a131-dd1abcdb7dd0" />)
+* [Desktop screen](<img width="1035" height="917" alt="image" src="https://github.com/user-attachments/assets/0867a7b8-1d92-4d51-b2c4-0b07fbc0c61a" />)
+
+  
 ## References
 *Design Inspiration:
 
