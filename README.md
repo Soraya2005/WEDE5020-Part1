@@ -103,7 +103,7 @@ Initial content and placeholder images integrated into the pages.
   * Began testing and fixing code.
 
 ## Screenshots
-* [Mobile screen](<img width="503" height="625" alt="image" src="https://github.com/user-attachments/assets/d6c73eea-d733-4d4d-a6c8-1a0874f2f7f5" />)
+*! [Mobile screen] (<img width="503" height="625" alt="image" src="https://github.com/user-attachments/assets/d6c73eea-d733-4d4d-a6c8-1a0874f2f7f5" /> )
 * [Tablet screen](<img width="862" height="927" alt="image" src="https://github.com/user-attachments/assets/84e73217-ec88-4960-a131-dd1abcdb7dd0" />)
 * [Desktop screen](<img width="1035" height="917" alt="image" src="https://github.com/user-attachments/assets/0867a7b8-1d92-4d51-b2c4-0b07fbc0c61a" />)
 
