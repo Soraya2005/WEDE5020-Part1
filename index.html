@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Cape Town - Artisanal Luxury Pastry</title>
+    <meta name="description" content="Experience the art of pastry with Emma's signature creations. Inspired by Cédric Grolet and Pierre Hermé.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section with Logo and Navigation -->
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+        header {
+          background-color: #f8c8d1; /* rose background */
+          text-align: center;
+          padding: 20px 0;
+        }
+        header h1 {
+          margin: 0;
+          font-size: 2.5em;
+          font-weight: bold;
+        }
+        nav {
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          padding: 15px 0;
+          background: white;
+          font-size: 1.1em;
+        }
+        nav a {
+          text-decoration: none;
+          color: black;
+          font-weight: 500;
+        }
+        nav a:hover {
+          text-decoration: underline;
+        }
+        .hero-image img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Emma Cape Town</h1>
+      </header>
+    
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Creations</a>
+        <a href="about.html">Our Stories</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    
+      <section class="hero-image">
+        <img src="Inside.jpg" width="830px"height="700px" alt="store Image">
+      </section>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 style="text-align: center; background-color: #f8c8d1; /* rose background */ ">The Art of Indulgence</h1>
+                <p>Step into a world where pastries are more than desserts,they are emotions sculpted into flavor. From the delicate crunch of pistachio and hazelnut cookies, to the playful illusion of popcorn, and the poetic elegance of a mango-vanilla flower, each creation is crafted to surprise, to enchant, and to delight. Our signature pastries are here to dazzle your senses and turn every bite into an unforgettable story.</p>
+                <a href="products.html" class="btn">Explore Our Creations</a>
+            </div>
+        </section>
+
+        <!-- Featured Creations Section -->
+        <section class="featured-creations">
+            <div class="container">
+                <h2  style="text-align: center; background-color: #f8c8d1; /* rose background */ ">Signature Collection</h2>
+                <div class="featured-creations-grid">
+                    <!-- Card 1: Pistachio Cookie -->
+                    <div class="creation-card">
+                        <img src="cookie-pistache.jpg"width="350px" height="400px" alt="A beautifully crafted pistachio cookie" onerror="this.onerror=null;this.src='https://placehold.co/800x600/FDFBF8/C9B083?text=Pistachio+Cookie';">
+                        <div class="creation-card-content">
+                            <h3>The Pistachio Cookie</h3>
+                            <p>A soft-centered cookie with a heart of molten pistachio praline.</p>
+                        </div>
+                    </div>
+                    <!-- Card 2: Hazelnut Cookie -->
+                    <div class="creation-card">
+                        <img src="cookie-noisette25 (1).jpg"width="350px"height="400px" alt="A rich hazelnut cookie" onerror="this.onerror=null;this.src='https://placehold.co/800x600/FDFBF8/C9B083?text=Hazelnut+Cookie';">
+                        <div class="creation-card-content">
+                            <h3>The Hazelnut Cookie</h3>
+                            <p>Roasted Piedmont hazelnuts in a rich, buttery dough.</p>
+                        </div>
+                    </div>
+                    <!-- Card 3: Popcorn Illusion -->
+                     <div class="creation-card">
+                        <img src="pop-corn-trompe-l-oeil-24.jpg"width="350px"height="400px" alt="A trompe-l'œil dessert that looks like popcorn" onerror="this.onerror=null;this.src='https://placehold.co/800x600/FDFBF8/C9B083?text=Popcorn';">
+                        <div class="creation-card-content">
+                            <h3>The Popcorn Illusion</h3>
+                            <p>A surprising dessert with a heart of corn mousse and caramel.</p>
+                        </div>
+                    </div>
+                    <!-- Card 4: Mango & Vanilla Flower -->
+                    <div class="creation-card">
+                        <img src="fleur-mangue-vanille.jpg"width="350px"height="400px" alt="An intricate flower-shaped dessert made of mango" onerror="this.onerror=null;this.src='https://placehold.co/800x600/FDFBF8/C9B083?text=Mango+Flower';">
+                        <div class="creation-card-content">
+                            <h3>Mango & Vanilla Flower</h3>
+                            <p>An intricate flower of fresh mango and Tahitian vanilla cream.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .featured-creations {
+              text-align: center;
+              padding: 40px 20px;
+            }
+          
+            .featured-creations h2 {
+              font-size: 2em;
+              margin-bottom: 30px;
+            }
+          
+            .featured-creations-grid {
+              display: flex;              /* align horizontally */
+              justify-content: center;    /* center the photos */
+              gap: 30px;                  /* space between each photo */
+              flex-wrap: wrap;            /* allow wrapping on smaller screens */
+            }
+          
+            .creation-card {
+              max-width: 220px;           /* controls image+text width */
+            }
+          
+            .creation-card img {
+              width: 100%;
+              border-radius: 10px;
+              display: block;
+            }
+          
+            .creation-card h3 {
+              margin: 10px 0 5px;
+              font-size: 1.1em;
+            }
+          
+            .creation-card p {
+              font-size: 0.9em;
+              margin: 0;
+            }
+          </style>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; Emma Cape Town. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

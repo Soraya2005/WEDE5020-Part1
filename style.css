@@ -1,0 +1,258 @@
+/* ======================================================
+   FONTS AND BASIC SETUP
+   ====================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap');
+
+   :root {
+       --primary-font: 'Playfair Display', serif;
+       --secondary-font: 'Montserrat', sans-serif;
+       --text-color: #333333;
+       --background-color: #FDFBF8; /* A very light, warm white */
+       --accent-color: #C9B083; /* A soft gold */
+   }
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   body {
+       font-family: var(--secondary-font);
+       background-color: var(--background-color);
+       color: var(--text-color);
+       line-height: 1.6;
+   }
+   
+   .container {
+       width: 90%;
+       max-width: 1100px;
+       margin: 0 auto;
+       padding: 20px 0;
+   }
+   
+   /* ======================================================
+      HEADER & NAVIGATION
+      ====================================================== */
+   .main-header {
+       padding: 20px 0;
+       border-bottom: 1px solid #eee;
+       text-align: center;
+   }
+   
+   .main-header .logo {
+       font-family: var(--primary-font);
+       font-size: 2.5rem;
+       font-weight: 700;
+       text-decoration: none;
+       color: var(--text-color);
+       letter-spacing: 1px;
+   }
+   
+   .main-nav ul {
+       list-style: none;
+       padding-top: 20px;
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+   }
+   
+   .main-nav a {
+       text-decoration: none;
+       color: var(--text-color);
+       font-weight: 400;
+       font-size: 1rem;
+       padding-bottom: 5px;
+       border-bottom: 2px solid transparent;
+       transition: border-color 0.3s;
+   }
+   
+   .main-nav a:hover,
+   .main-nav a.active {
+       border-bottom-color: var(--accent-color);
+   }
+   
+   /* ======================================================
+      MAIN CONTENT & TYPOGRAPHY
+      ====================================================== */
+   main {
+       padding: 60px 0;
+   }
+   
+   h1, h2, h3 {
+       font-family: var(--primary-font);
+       font-weight: 700;
+       margin-bottom: 20px;
+   }
+   
+   h1 { font-size: 3rem; text-align: center; }
+   h2 { font-size: 2.5rem; text-align: center; }
+   h3 { font-size: 1.8rem; }
+   p { margin-bottom: 20px; max-width: 700px; margin-left: auto; margin-right: auto; text-align: center;}
+   
+   
+   /* ======================================================
+      HOMEPAGE SPECIFIC STYLES
+      ====================================================== */
+   .hero {
+       text-align: center;
+       padding: 40px 0;
+   }
+   
+   .hero p {
+       font-size: 1.2rem;
+       margin-bottom: 30px;
+   }
+   
+   .btn {
+       display: inline-block;
+       background-color: var(--text-color);
+       color: white;
+       padding: 12px 30px;
+       text-decoration: none;
+       font-weight: 400;
+       transition: background-color 0.3s;
+   }
+   
+   .btn:hover {
+       background-color: var(--accent-color);
+       color: var(--text-color);
+   }
+   
+   .featured-creations {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       gap: 30px;
+       margin-top: 60px;
+       text-align: left;
+   }
+   
+   .creation-card {
+       background-color: #fff;
+       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+   }
+   
+   .creation-card img {
+       width: 100%;
+       height: 250px;
+       object-fit: cover;
+   }
+   
+   .creation-card-content {
+       padding: 20px;
+   }
+   .creation-card-content h3 {
+       font-size: 1.5rem;
+       margin-bottom: 10px;
+   }
+   .creation-card-content p {
+       text-align: left;
+       font-size: 0.9rem;
+       margin-bottom: 0;
+   }
+   
+   /* ======================================================
+      PRODUCTS PAGE STYLES
+      ====================================================== */
+   .product-grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 60px;
+       align-items: center;
+   }
+   
+   .product-item {
+       margin-bottom: 40px;
+   }
+   
+   .product-item img {
+       width: 100%;
+       max-width: 500px;
+       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+   }
+   
+   .product-description h3 {
+       font-size: 2rem;
+   }
+   
+   .product-description .price {
+       font-family: var(--primary-font);
+       font-size: 1.5rem;
+       color: var(--accent-color);
+       margin: 10px 0 20px 0;
+   }
+   
+   /* ======================================================
+      ABOUT & CONTACT STYLES
+      ====================================================== */
+   .about-content, .contact-content {
+       display: flex;
+       gap: 50px;
+       align-items: center;
+   }
+   
+   .about-content img {
+       max-width: 400px;
+       border-radius: 5px;
+   }
+   
+   .about-text, .contact-info {
+       text-align: left;
+   }
+   .about-text p, .contact-info p {
+       text-align: left;
+       margin-left: 0;
+   }
+   
+   /* ======================================================
+      FORM STYLES
+      ====================================================== */
+   .form-container {
+       max-width: 700px;
+       margin: 0 auto;
+       background: #fff;
+       padding: 40px;
+       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+   }
+   
+   .form-group {
+       margin-bottom: 20px;
+   }
+   
+   .form-group label {
+       display: block;
+       margin-bottom: 8px;
+       font-weight: 400;
+   }
+   
+   .form-group input,
+   .form-group textarea {
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ddd;
+       font-family: var(--secondary-font);
+       font-size: 1rem;
+   }
+   
+   .form-group textarea {
+       resize: vertical;
+       min-height: 150px;
+   }
+   
+   .btn-submit {
+       width: 100%;
+       border: none;
+       cursor: pointer;
+       font-size: 1.1rem;
+   }
+   
+   /* ======================================================
+      FOOTER
+      ====================================================== */
+   .main-footer {
+       text-align: center;
+       padding: 40px 0;
+       margin-top: 60px;
+       border-top: 1px solid #eee;
+       font-size: 0.9rem;
+   }
